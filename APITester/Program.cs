@@ -13,8 +13,6 @@ namespace APITester
             APIcaller caller = new APIcaller();
             caller.Run();
         }
-
-
     }
 
     public class APIcaller
@@ -38,6 +36,7 @@ namespace APITester
             string jsonString = JsonConvert.SerializeObject(lm);
             Console.WriteLine(jsonString);
             Console.ReadLine();
+            //Cool code brah
         }
     }
 }
